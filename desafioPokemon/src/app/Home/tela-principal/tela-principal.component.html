@@ -1,0 +1,15 @@
+
+<body>
+<h2>Pokemon</h2>
+
+<ul>
+    <li *ngFor= "let c of retorno">
+        
+       <div>{{c.id}} - {{c.name}} - {{c.types}}  </div>
+       
+        <img src="{{c.imageUrl}}"/>
+               
+        
+    </li>
+</ul>
+</body>
